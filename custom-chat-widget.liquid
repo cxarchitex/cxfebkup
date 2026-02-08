@@ -1,22 +1,17 @@
-<!-- Chat Toggle Button -->
-<button id="cx-chat-toggle">Chat</button>
+<div class="chat-launcher" data-chat-launcher>
+  Chat
+</div>
 
-<!-- Chat Widget -->
-<div id="cx-chat-root" class="cx-hidden">
-  <div class="cx-chat-header">
+<div class="chat-widget" data-chat-widget>
+  <div class="chat-header">
     <span>Support</span>
-    <button id="cx-chat-close">×</button>
+    <button data-chat-close>×</button>
   </div>
 
-  <div id="cx-chat-messages"></div>
+  <div class="chat-messages" data-chat-messages></div>
 
-  <div class="cx-chat-input">
-    <input
-      id="cx-chat-input"
-      type="text"
-      placeholder="Type your message..."
-      autocomplete="off"
-    />
-    <button id="cx-chat-send">➤</button>
+  <div class="chat-input">
+    <input type="text" placeholder="Type your message..." data-chat-input />
+    <button data-chat-send>➤</button>
   </div>
 </div>
